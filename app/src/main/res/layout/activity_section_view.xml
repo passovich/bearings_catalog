@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/img"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        style="@style/buttonStyle"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        style="@style/buttonStyle"
+        android:text="Список разделов"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Маркировка"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:text="d"
+                android:textSize="18dp"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp"
+                />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

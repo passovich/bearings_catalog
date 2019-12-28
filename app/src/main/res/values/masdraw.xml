@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icon">
+        <item>@drawable/icon_01</item>
+        <item>@drawable/icon_02</item>
+        <item>@drawable/icon_03</item>
+        <item>@drawable/icon_04</item>
+        <item>@drawable/icon_05</item>
+        <item>@drawable/icon_06</item>
+        <item>@drawable/icon_07</item>
+        <item>@drawable/icon_08</item>
+        <item>@drawable/icon_09</item>
+        <item>@drawable/icon_10</item>
+        <item>@drawable/icon_11</item>
+        <item>@drawable/icon_12</item>
+        <item>@drawable/icon_13</item>
+        <item>@drawable/icon_14</item>
+        <item>@drawable/icon_15</item>
+        <item>@drawable/icon_16</item>
+        <item>@drawable/icon_17</item>
+        <item>@drawable/icon_18</item>
+        <item>@drawable/icon_19</item>
+        <item>@drawable/icon_20</item>
+    </array>
+</resources>
